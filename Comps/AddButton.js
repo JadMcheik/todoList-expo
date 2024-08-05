@@ -12,6 +12,8 @@ const Addbutton = (props) => {
 
 export default Addbutton;
 
+
+
 const styles = StyleSheet.create({
   addButtonView: {
     width: "25%",

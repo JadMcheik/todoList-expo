@@ -4,6 +4,8 @@ import Tasks from "./Tasks";
 import { View, StyleSheet, Alert } from "react-native";
 import React, { forwardRef } from "react";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { Colors } from "../themes/Colors";
+
 
 const InnerContainer = () => {
   const [tasks, setTasks] = useState([]);
@@ -152,7 +154,7 @@ const styles = StyleSheet.create({
   innerContainer: {
     marginTop: 50,
     marginBottom: 50,
-    backgroundColor: "#ffffff",
+    backgroundColor: Colors.white,
     alignItems: "center",
     justifyContent: "center",
     padding: 20,

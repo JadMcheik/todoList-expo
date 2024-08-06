@@ -1,4 +1,6 @@
 import { View, StyleSheet, Text, Button, TouchableOpacity } from "react-native";
+import { Colors } from "../themes/Colors";
+
 
 const Addbutton = (props) => {
   return (
@@ -12,8 +14,6 @@ const Addbutton = (props) => {
 
 export default Addbutton;
 
-
-
 const styles = StyleSheet.create({
   addButtonView: {
     width: "25%",
@@ -24,14 +24,14 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     width: "100%",
     height: "100%",
-    backgroundColor: "#1e90ff",
+    backgroundColor:Colors.primary,
     borderWidth: 0,
     cursor: "pointer",
 
     borderRadius: 10,
   },
   addButtonText: {
-    color: "#ffffff",
+    color: Colors.white,
     textAlign: "center",
     fontSize: 16,
   },
